@@ -7,7 +7,7 @@ import (
 	"github.com/anacrolix/missinggo"
 	"github.com/anacrolix/missinggo/resource"
 
-	"github.com/anacrolix/torrent/metainfo"
+	"github.com/bigflood/torrent/metainfo"
 )
 
 type piecePerResource struct {

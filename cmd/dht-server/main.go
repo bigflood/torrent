@@ -8,8 +8,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/anacrolix/torrent/dht"
-	"github.com/anacrolix/torrent/dht/krpc"
+	"github.com/bigflood/torrent/dht"
+	"github.com/bigflood/torrent/dht/krpc"
 )
 
 var (

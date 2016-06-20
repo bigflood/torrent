@@ -16,7 +16,7 @@ import (
 
 	"github.com/anacrolix/missinggo"
 
-	"github.com/anacrolix/torrent/metainfo"
+	"github.com/bigflood/torrent/metainfo"
 )
 
 const (

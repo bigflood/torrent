@@ -12,8 +12,8 @@ import (
 
 	"github.com/anacrolix/missinggo/httptoo"
 
-	"github.com/anacrolix/torrent/bencode"
-	"github.com/anacrolix/torrent/util"
+	"github.com/bigflood/torrent/bencode"
+	"github.com/bigflood/torrent/util"
 )
 
 type httpResponse struct {

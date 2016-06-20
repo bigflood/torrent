@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/anacrolix/torrent/bencode"
+	"github.com/bigflood/torrent/bencode"
 )
 
 // Information specific to a single file inside the MetaInfo structure.

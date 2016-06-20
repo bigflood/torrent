@@ -25,14 +25,14 @@ import (
 	"github.com/anacrolix/utp"
 	"github.com/dustin/go-humanize"
 
-	"github.com/anacrolix/torrent/bencode"
-	"github.com/anacrolix/torrent/dht"
-	"github.com/anacrolix/torrent/dht/krpc"
-	"github.com/anacrolix/torrent/iplist"
-	"github.com/anacrolix/torrent/metainfo"
-	"github.com/anacrolix/torrent/mse"
-	pp "github.com/anacrolix/torrent/peer_protocol"
-	"github.com/anacrolix/torrent/storage"
+	"github.com/bigflood/torrent/bencode"
+	"github.com/bigflood/torrent/dht"
+	"github.com/bigflood/torrent/dht/krpc"
+	"github.com/bigflood/torrent/iplist"
+	"github.com/bigflood/torrent/metainfo"
+	"github.com/bigflood/torrent/mse"
+	pp "github.com/bigflood/torrent/peer_protocol"
+	"github.com/bigflood/torrent/storage"
 )
 
 // Currently doesn't really queue, but should in the future.

@@ -9,8 +9,8 @@ import (
 	"github.com/anacrolix/sync"
 	"github.com/willf/bloom"
 
-	"github.com/anacrolix/torrent/dht/krpc"
-	"github.com/anacrolix/torrent/logonce"
+	"github.com/bigflood/torrent/dht/krpc"
+	"github.com/bigflood/torrent/logonce"
 )
 
 // Maintains state for an ongoing Announce operation. An Announce is started

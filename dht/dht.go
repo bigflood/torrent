@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/anacrolix/torrent/dht/krpc"
-	"github.com/anacrolix/torrent/iplist"
+	"github.com/bigflood/torrent/dht/krpc"
+	"github.com/bigflood/torrent/iplist"
 )
 
 const (

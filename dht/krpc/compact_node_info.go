@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anacrolix/torrent/bencode"
+	"github.com/bigflood/torrent/bencode"
 )
 
 type CompactIPv4NodeInfo []NodeInfo

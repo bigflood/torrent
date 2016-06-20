@@ -6,7 +6,7 @@ import (
 
 	"github.com/anacrolix/missinggo"
 
-	"github.com/anacrolix/torrent/tracker"
+	"github.com/bigflood/torrent/tracker"
 )
 
 // Announces a torrent to a tracker at regular intervals, when peers are
