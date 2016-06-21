@@ -203,3 +203,14 @@ func (t *Torrent) AddTrackers(announceList [][]string) {
 	defer t.cl.mu.Unlock()
 	t.addTrackers(announceList)
 }
+
+func (t *Torrent) PieceStates(bufSlice []PieceState) []PieceState {
+	t.cl.mu.Lock()
+	defer t.cl.mu.Unlock()
+
+	for index := range t.pieces {
+		bufSlice = append(bufSlice, t.pieceState(index))
+	}
+
+	return bufSlice
+}
