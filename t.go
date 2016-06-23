@@ -214,3 +214,15 @@ func (t *Torrent) PieceStates(bufSlice []PieceState) []PieceState {
 
 	return bufSlice
 }
+
+func (t *Torrent) LastPieceState() PieceState {
+	t.cl.mu.Lock()
+	defer t.cl.mu.Unlock()
+
+	var n = len(t.pieces)
+	if n > 0 {
+		return t.pieceState(n - 1)
+	}
+
+	return PieceState{}
+}
