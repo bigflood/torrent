@@ -190,6 +190,12 @@ func (t *Torrent) DownloadAll() {
 	t.pendPieceRange(0, t.numPieces())
 }
 
+func (t *Torrent) CancelAll() {
+	t.cl.mu.Lock()
+	defer t.cl.mu.Unlock()
+	t.unpendPieceRange(0, t.numPieces())
+}
+
 func (t *Torrent) String() string {
 	s := t.name()
 	if s == "" {
